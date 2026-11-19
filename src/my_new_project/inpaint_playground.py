@@ -9,5 +9,7 @@ mask = cv.imread('mask2.png', cv.IMREAD_GRAYSCALE)
 dst = cv.inpaint(img,mask,3,cv.INPAINT_TELEA)
  
 cv.imshow('dst',dst)
+
+print('changed branch')
 cv.waitKey(0)
 cv.destroyAllWindows()
