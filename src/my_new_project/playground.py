@@ -1,4 +1,5 @@
 # %%
+import xarray as xr
 
 def main() -> None:
     print("Hello from my-new-project!")
